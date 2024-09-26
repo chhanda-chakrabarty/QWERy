@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* COMMON CSS START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Poppins", system-ui;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* COMMON CSS END */
+
+/* NAVBAR CSS START */
+
+#navbar {
+  padding: 28px 0 28px 0;
+  position: absolute;
+  width: 100%;
+}
+
+#navbar .nav-wrapper {
+  display: flex;
+}
+
+#navbar .logo {
+  width: 20%;
+}
+
+#navbar .nav-items {
+  width: 80%;
+}
+#navbar .nav-items ul {
+  display: flex;
+  justify-content: end;
+}
+
+#navbar .nav-items ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+
+/* #navbar .nav-items ul li:nth-child() a {
+  color: white;
+} */
+
+#navbar .nav-items ul li:hover a {
+  color: rgb(15, 15, 15);
+}
+
+/* NAVBAR CSS END */
+
+/* BANNER CSS START */
+
+#banner {
+  background-image: url("../image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 462px 0;
+}
+
+#banner .banner-details h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  color: #ffc178;
+  margin-bottom: 37px;
+}
+#banner .banner-details h1 {
+  font-size: 96px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#banner .banner-details h1 span {
+  display: block;
+  font-weight: 400;
+  font-size: 88px;
+}
+/* BANNER CSS END */
+
+/* HOLIDAY CSS START */
+
+#holiday {
+  padding: 286px;
+  padding: 295px;
+  /* background-color: #dfc7ac; */
+}
+
+#holiday .holiday-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#holiday .holiday-details,
+.holiday-summary h2 h3 p {
+  color: white;
+  column-gap: 143px;
+  min-width: 587px;
+}
+
+#holiday .holiday-details h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fbd784;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 13px;
+}
+
+#holiday .holiday-details h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: auto;
+  margin-bottom: 13px;
+}
+#holiday .holiday-details h2 span {
+  display: block;
+  line-height: auto;
+}
+
+#holiday .holiday-details p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 32px;
+  margin-bottom: 66px;
+}
+
+#holiday .holiday-details button {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: #fbd784;
+  text-transform: uppercase;
+}
+
+/* HOLIDAY CSS END */
+
+/* BROMO CSS START */
+
+#bromo {
+  padding: 295px;
+}
+
+.container-holder {
+  position: relative;
+}
+
+.position-container {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  min-width: 923px;
+  transform: translate(-50%, 0%);
+  background-color: transparent;
+}
+
+.container-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 600px;
+}
+
+.bromo-title {
+  font-size: 18px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.bromo-tagline {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.bromo-summary {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 14px;
+}
+.bromo-readmore {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fbd784;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+/* BROMO CSS END */
+/* CULTURE CSS START */
+
+#culture {
+  padding: 296px;
+}
+
+#culture .container-culture {
+  display: flex;
+}
+
+#culture .culture-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 19px;
+  column-gap: 37px;
+}
+
+#culture .culture-left h4 {
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  color: #fbd784;
+  text-transform: uppercase;
+}
+
+#culture .culture-left h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#culture .culture-left h2 span {
+  display: block;
+}
+
+#culture .culture-left p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 47px;
+  text-transform: uppercase;
+}
+
+#culture .culture-left p span {
+  display: block;
+}
+
+#culture .culture-left a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fbd784;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#culture .culture-right {
+  min-width: 624px;
+}
+
+/* CULTURE CSS END */
+
+/* FOOTER CSS START */
+
+#footer {
+  padding: 200px;
+}
+
+.footerBottomWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerBottom h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 233px;
+}
+
+#footer .footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.footerTopContent {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.footerTopContent__title {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+#footer .footerTop > .footerTopContent > button {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffa343;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.footerBottomWrapperLeft__title {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.3px;
+  margin-top: 81px;
+}
+
+.footerBottomWrapperLeft__title > span {
+  display: block;
+}
+
+.footerBottomWrapperLeft__terms {
+  margin-top: 36px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  margin-bottom: 34px;
+}
+
+.icons i {
+  font-size: 25px;
+  color: white;
+  margin-right: 29px;
+}
+
+.footerBottomWrapperRight {
+  display: flex;
+  column-gap: 85px;
+  row-gap: 40px;
+}
+
+.footerBottomWrapperRight ul li a {
+  color: white;
+  letter-spacing: -0.2px;
+  padding-top: 10px;
+}
+
+/* FOOTER CSS END */
